@@ -1,8 +1,20 @@
 @media screen and (max-width: 576px) {
+    /* navbar section responsive here */
     #navbar ul li{
         display: none;
     }
     .menu-bar {
         display: block;
+    }
+    /* banner section responsive here */
+    #banner-container {
+        flex-direction: column;
+    }
+    .banner-content {
+        margin-bottom: 60px;
+    }
+    .banner-content .content-title {
+        font-size: 3rem;
+        line-height: 60px;
     }
   }
