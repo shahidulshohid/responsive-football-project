@@ -7,7 +7,18 @@
     box-sizing: border-box;
 }
 /* shared styles here */
-.btn
+.btn {
+    background: rgb(224, 44, 109);
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 8px 20px;
+    border: none;
+    display: inline;
+}
+.btn i {
+    margin:0 8px;
+}
 /* nav styles here */
 #header {
     background: rgb(93, 16, 216);
@@ -16,11 +27,11 @@
 .header-container {
     max-width: 1440px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 #navbar {
-    max-width: 1160px;
+    max-width: 90%;
     margin: 0 auto;
+    padding-top: 30px;
 }
 #navbar{
     display: flex;
@@ -30,7 +41,6 @@
     flex: 1;
     display: flex;
     align-items: center;
-    border: 1px solid red;
 }
 #navbar ul li {
     list-style: none;
@@ -38,8 +48,24 @@
 #navbar ul li a{
     text-decoration: none;
     color: white;
-    padding: 8px 20px 8px 0;
+    padding: 8px 30px 8px 0;
     display: block;
     font-size: 1rem;
     font-weight: 500;
+}
+.menu-bar {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+    display: none;
+}
+/* banner section styles here */
+#banner-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+.banner-container {
+    max-width: 90%;
+    margin: 0 auto;
 }
