@@ -6,9 +6,16 @@
   margin: 0;
   box-sizing: border-box;
 }
-h1, h2, h3, h4, h5, h6, button, span {
-    margin: 0;
-    padding: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+span {
+  margin: 0;
+  padding: 0;
 }
 /* shared styles here */
 .btn {
@@ -73,11 +80,11 @@ h1, h2, h3, h4, h5, h6, button, span {
   align-items: center;
 }
 .banner-content .content-title {
-    font-size: 4rem;
-    font-weight: 700;
-    color: white;
-    line-height: 80px;
-    margin-bottom: 20px;
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+  line-height: 80px;
+  margin-bottom: 20px;
 }
 .banner-img {
   max-width: 556.01px;
@@ -85,4 +92,38 @@ h1, h2, h3, h4, h5, h6, button, span {
 .banner-img img {
   width: 100%;
   height: 100%;
+}
+/* main section starts here */
+#main-container {
+  max-width: 1440px;
+}
+#img-gallery {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.gallery-items {
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(255, 255, 255);
+  padding: 15px;
+}
+.gallery-img img {
+  width: 100%;
+  height: 100%;
+}
+.content-item .content-title {
+  color: rgb(24, 25, 31);
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.content-item .content-description {
+  color: rgb(108, 108, 108);
+  font-size: 1rem;
+  font-weight: 400;
+  margin:10px 0 ;
 }

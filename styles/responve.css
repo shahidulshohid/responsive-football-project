@@ -17,4 +17,8 @@
         font-size: 3rem;
         line-height: 60px;
     }
+    /* gallery section responsive here */
+    #img-gallery {
+        grid-template-columns: 1fr;
+      }
   }
