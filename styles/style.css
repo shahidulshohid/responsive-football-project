@@ -101,7 +101,6 @@ span {
   width: 85%;
   margin: 0 auto;
   margin-top: 50px;
-  margin-bottom: 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
@@ -126,4 +125,33 @@ span {
   font-size: 1rem;
   font-weight: 400;
   margin:10px 0 ;
+}
+/* highlight section styles here */
+#highlight-container {
+  width: 85%;
+  margin:0 auto;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.highlight-content-title {
+  color: rgb(10, 8, 38);
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 15px;
+} 
+.highlight-content-description {
+  color: rgb(108, 108, 108);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1.3rem;
+}
+.highlight-img {
+  max-width: 567px;
+}
+.highlight-img img {
+  width: 100%;
+  height: 100%;
 }

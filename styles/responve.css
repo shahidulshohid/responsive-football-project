@@ -21,4 +21,10 @@
     #img-gallery {
         grid-template-columns: 1fr;
       }
+      /* highlight section responsive here */
+      #highlight-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+      }
   }
