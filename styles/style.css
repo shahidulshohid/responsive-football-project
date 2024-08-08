@@ -124,12 +124,12 @@ span {
   color: rgb(108, 108, 108);
   font-size: 1rem;
   font-weight: 400;
-  margin:10px 0 ;
+  margin: 10px 0;
 }
 /* highlight section styles here */
 #highlight-container {
   width: 85%;
-  margin:0 auto;
+  margin: 0 auto;
   margin-top: 80px;
   display: flex;
   justify-content: space-between;
@@ -141,7 +141,7 @@ span {
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 15px;
-} 
+}
 .highlight-content-description {
   color: rgb(108, 108, 108);
   font-size: 1rem;
@@ -154,4 +154,32 @@ span {
 .highlight-img img {
   width: 100%;
   height: 100%;
+}
+/* footer section styles here */
+#footer-section {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+.icons-container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.icons-container img {
+  width: 32px;
+  height: 32px;
+}
+.copy-right {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 400;
 }
